@@ -1,0 +1,1 @@
+void createControllerTask(int core);
