@@ -1,6 +1,25 @@
 {
     "files.associations": {
         "*.embeddedhtml": "html",
-        "freertos.h": "c"
-    }
+        "freertos.h": "c",
+        "adc_types.h": "c",
+        "rc-car.h": "c",
+        "spi_master.h": "c",
+        "gpio.h": "c",
+        "u8g2_esp32_hal.h": "c",
+        "spi_common.h": "c",
+        "spi_types.h": "c",
+        "sdkconfig.h": "c",
+        "u8g2.h": "c",
+        "lvgl.h": "c",
+        "esp_lcd_panel_vendor.h": "c",
+        "esp_timer.h": "c",
+        "i2c.h": "c",
+        "queue.h": "c"
+    },
+    "idf.port": "/dev/cu.usbserial-0001",
+    "idf.adapterTargetName": "esp32s3",
+    "idf.openOcdConfigs": [
+        "board/esp32s3-bridge.cfg"
+    ]
 }
